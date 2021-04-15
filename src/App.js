@@ -10,8 +10,8 @@ function App() {
     <Router>
     <div className="app">
       <Switch>
-        <Route path="/checkout">
-          <h1>Checkout page</h1>
+        <Route exact path="/checkout">
+          <Checkout />
         </Route>
         <Route path="/">
           <Header />
