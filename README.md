@@ -1,3 +1,6 @@
+# This is a practice project, for educational purposes only. 
+Credit to the CleverProgrammer youtube channel for making this available to run through and dissect and also allowing me to quickly learn and practice buidling out a project with clear structure and organization.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
