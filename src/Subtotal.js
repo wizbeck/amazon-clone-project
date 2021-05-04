@@ -6,7 +6,7 @@ import { getBasketTotal } from './reducer';
 
 function Subtotal() {
 
-  const [{basket}, dispatch] = useStateValue();
+  const [{ basket }, dispatch] = useStateValue();
  
 
 
@@ -26,7 +26,7 @@ function Subtotal() {
         </>
       )}
       decimalScale={2}
-      value={getBasketTotal(basket)} //figure out to implement value
+      value={getBasketTotal(basket)} //because its passed as props here, bring value into the strong tag above 
       displayType={"text"}
       tousandSeparator={true}
       prefix={"$"}
