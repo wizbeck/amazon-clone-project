@@ -17,7 +17,7 @@ function Home() {
           />
           <Product 
           id='9082432'
-          title='[WiFi Projector] QKK Upgraded 6000Lumens Projector, Full HD 1080P Supported Mini Projector [Tripod Included], Max 200” Display, Smartphone/HDMI/AV/USB/TF/Sound Bar/TV Stick Supported'
+          title='[WiFi Projector] QKK Upgraded 6000Lumens Projector, Full HD 1080P Supported Mini Projector [Tripod Included] 200” Display'
           price={129.99}
           image='https://images-na.ssl-images-amazon.com/images/I/61UjPuZ7euL._AC_SL1000_.jpg'
           rating={4}/>
