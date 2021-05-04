@@ -9,6 +9,7 @@ function Subtotal() {
       renderText={(value) => (
         <>
         <p>
+          {/* value passed as a prop */}
           Subtotal (0 items):
           <strong>0</strong>
         </p>
@@ -18,7 +19,7 @@ function Subtotal() {
         </>
       )}
       decimalScale={2}
-      value={0}
+      value={0} //figure out to implement value
       displayType={"text"}
       tousandSeparator={true}
       prefix={"$"}
