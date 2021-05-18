@@ -1,5 +1,6 @@
 export const initialState = {
   basket: [],
+  user: null,
 };
 // Selector function - common practice in production and professional environment| import to subtotal component
 export const getBasketTotal = (basket) =>

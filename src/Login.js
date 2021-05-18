@@ -11,21 +11,19 @@ function Login() {
   const history = useHistory();
   const signIn = (e) => {
     e.preventDefault();
-
     auth
       .signInWithEmailAndPassword(email, password)
       .then((auth) => {
         history.push('/')
       })
       .catch(error => alert(error.message))
-    ///firebase login stuff
   };
 
   const register = (e) => {
     e.preventDefault();
     auth
       .createUserWithEmailAndPassword(email, password)
-      .then( (auth) => {
+      .then((auth) => {
         if (auth) {
           history.push('/')
         }
