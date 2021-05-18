@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './App.css';
 import Header from './Header'
 import Home from './Home';
@@ -15,14 +15,23 @@ function App() {
     //will only run when the component loads/renders..
     auth.onAuthStateChanged(authUser => {
       console.log('THE USER IS >>>', authUser);
+
       if (authUser) {
         //the user just logged / was logged in
 
+        dispatch({
+          type: 'SET_USER',
+          user: authUser
+        })
       } else {
         //user is logged out
 
+        dispatch({
+          type: 'SET_USER',
+          user: null
+        })
       }
-    });
+    })
   }, [])
 
   return (
