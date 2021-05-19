@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { forwardRef } from 'react'
 import './Checkout.css'
 import CheckoutProduct from './CheckoutProduct';
 import { useStateValue } from './StateProvider';
@@ -18,12 +18,10 @@ function Checkout() {
           />
 
           <div>
-            <h3>Hello, {user?.email}</h3>
+            <h3>Hello, {user?.email.split("@")[0]}</h3>
             <h2 className="checkout__title">Your Shopping Cart</h2> 
             
-            
             {basket.map((item, i) => (
-              <FlipMove leaveAnimation={"fade"}>
               <CheckoutProduct
                 key={i}
                 id={item.id}
@@ -32,7 +30,6 @@ function Checkout() {
                 price={item.price}
                 rating={item.rating}
               />
-              </FlipMove>
             ))}
           </div>
 

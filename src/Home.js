@@ -25,13 +25,13 @@ function Home() {
         <div className="home__row">
           <Product 
             id='12354543'
-            title='Office Chair Caster Wheels,Set of 5 Heavy Duty 2.5 Inch Upgraded Office Chair Replacement Wheels,Smooth and Safe for Hardwood,Tile Floors-Universal Fit for Game Office Chair (2.5"Plug-in_FBA, Black)'
+            title='Office Chair Caster Wheels,Set of 5 Heavy Duty 2.5 Inch'
             price={18.99}
             image='https://images-na.ssl-images-amazon.com/images/I/610TaZq84RL._AC_SL1001_.jpg'
             rating={5}/>
           <Product
             id='737373737' 
-            title='Logitech G PRO X Superlight Wireless Gaming Mouse - White'
+            title='Logitech G PRO Superlight Wireless Gaming Mouse - White'
             price={229.00}
             image='https://images-na.ssl-images-amazon.com/images/I/61ykKLbddNL._AC_SL1500_.jpg'
             rating={5}/>
